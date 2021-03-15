@@ -660,7 +660,7 @@ namespace ABC_Dashboard
             this.MinimumSize = new System.Drawing.Size(950, 600);
             this.Name = "MainDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Generate Timetable";
+            this.Text = "ABC Institute";
             this.panelSideMenu.ResumeLayout(false);
             this.panelLocation.ResumeLayout(false);
             this.panelTags.ResumeLayout(false);
