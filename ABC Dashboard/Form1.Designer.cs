@@ -59,6 +59,7 @@ namespace ABC_Dashboard
             this.btnStatistics = new System.Windows.Forms.Button();
             this.btnGenerateTimetable = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelSideMenu.SuspendLayout();
             this.panelLocation.SuspendLayout();
@@ -67,6 +68,8 @@ namespace ABC_Dashboard
             this.panelSubjects.SuspendLayout();
             this.panelLecturers.SuspendLayout();
             this.panelWorkingDaysHours.SuspendLayout();
+            this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -99,7 +102,7 @@ namespace ABC_Dashboard
             // panelSession
             // 
             this.panelSession.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSession.Location = new System.Drawing.Point(0, 1029);
+            this.panelSession.Location = new System.Drawing.Point(0, 1070);
             this.panelSession.Name = "panelSession";
             this.panelSession.Size = new System.Drawing.Size(233, 100);
             this.panelSession.TabIndex = 16;
@@ -108,10 +111,11 @@ namespace ABC_Dashboard
             // 
             this.btnSession.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSession.FlatAppearance.BorderSize = 0;
+            this.btnSession.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnSession.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnSession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSession.ForeColor = System.Drawing.Color.Black;
-            this.btnSession.Location = new System.Drawing.Point(0, 989);
+            this.btnSession.Location = new System.Drawing.Point(0, 1030);
             this.btnSession.Name = "btnSession";
             this.btnSession.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnSession.Size = new System.Drawing.Size(233, 40);
@@ -125,7 +129,7 @@ namespace ABC_Dashboard
             this.panelLocation.Controls.Add(this.btnManageLocation);
             this.panelLocation.Controls.Add(this.btnAddLocation);
             this.panelLocation.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLocation.Location = new System.Drawing.Point(0, 887);
+            this.panelLocation.Location = new System.Drawing.Point(0, 928);
             this.panelLocation.Name = "panelLocation";
             this.panelLocation.Size = new System.Drawing.Size(233, 102);
             this.panelLocation.TabIndex = 14;
@@ -134,6 +138,7 @@ namespace ABC_Dashboard
             // 
             this.btnManageLocation.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManageLocation.FlatAppearance.BorderSize = 0;
+            this.btnManageLocation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageLocation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageLocation.ForeColor = System.Drawing.Color.Black;
@@ -151,6 +156,7 @@ namespace ABC_Dashboard
             // 
             this.btnAddLocation.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAddLocation.FlatAppearance.BorderSize = 0;
+            this.btnAddLocation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddLocation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddLocation.ForeColor = System.Drawing.Color.Black;
@@ -168,10 +174,11 @@ namespace ABC_Dashboard
             // 
             this.btnLocation.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnLocation.FlatAppearance.BorderSize = 0;
+            this.btnLocation.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnLocation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnLocation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLocation.ForeColor = System.Drawing.Color.Black;
-            this.btnLocation.Location = new System.Drawing.Point(0, 847);
+            this.btnLocation.Location = new System.Drawing.Point(0, 888);
             this.btnLocation.Name = "btnLocation";
             this.btnLocation.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnLocation.Size = new System.Drawing.Size(233, 40);
@@ -186,7 +193,7 @@ namespace ABC_Dashboard
             this.panelTags.Controls.Add(this.btnManageTags);
             this.panelTags.Controls.Add(this.btnAddTags);
             this.panelTags.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTags.Location = new System.Drawing.Point(0, 745);
+            this.panelTags.Location = new System.Drawing.Point(0, 786);
             this.panelTags.Name = "panelTags";
             this.panelTags.Size = new System.Drawing.Size(233, 102);
             this.panelTags.TabIndex = 12;
@@ -195,6 +202,7 @@ namespace ABC_Dashboard
             // 
             this.btnManageTags.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManageTags.FlatAppearance.BorderSize = 0;
+            this.btnManageTags.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageTags.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageTags.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageTags.ForeColor = System.Drawing.Color.Black;
@@ -212,6 +220,7 @@ namespace ABC_Dashboard
             // 
             this.btnAddTags.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAddTags.FlatAppearance.BorderSize = 0;
+            this.btnAddTags.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddTags.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddTags.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddTags.ForeColor = System.Drawing.Color.Black;
@@ -229,10 +238,11 @@ namespace ABC_Dashboard
             // 
             this.btnTags.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnTags.FlatAppearance.BorderSize = 0;
+            this.btnTags.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnTags.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnTags.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTags.ForeColor = System.Drawing.Color.Black;
-            this.btnTags.Location = new System.Drawing.Point(0, 705);
+            this.btnTags.Location = new System.Drawing.Point(0, 746);
             this.btnTags.Name = "btnTags";
             this.btnTags.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnTags.Size = new System.Drawing.Size(233, 40);
@@ -247,7 +257,7 @@ namespace ABC_Dashboard
             this.panelStudents.Controls.Add(this.btnManageStudents);
             this.panelStudents.Controls.Add(this.btnAddStudents);
             this.panelStudents.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelStudents.Location = new System.Drawing.Point(0, 603);
+            this.panelStudents.Location = new System.Drawing.Point(0, 644);
             this.panelStudents.Name = "panelStudents";
             this.panelStudents.Size = new System.Drawing.Size(233, 102);
             this.panelStudents.TabIndex = 10;
@@ -256,6 +266,7 @@ namespace ABC_Dashboard
             // 
             this.btnManageStudents.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManageStudents.FlatAppearance.BorderSize = 0;
+            this.btnManageStudents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageStudents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageStudents.ForeColor = System.Drawing.Color.Black;
@@ -273,6 +284,7 @@ namespace ABC_Dashboard
             // 
             this.btnAddStudents.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAddStudents.FlatAppearance.BorderSize = 0;
+            this.btnAddStudents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddStudents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddStudents.ForeColor = System.Drawing.Color.Black;
@@ -290,10 +302,11 @@ namespace ABC_Dashboard
             // 
             this.btnStudents.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnStudents.FlatAppearance.BorderSize = 0;
+            this.btnStudents.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnStudents.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStudents.ForeColor = System.Drawing.Color.Black;
-            this.btnStudents.Location = new System.Drawing.Point(0, 563);
+            this.btnStudents.Location = new System.Drawing.Point(0, 604);
             this.btnStudents.Name = "btnStudents";
             this.btnStudents.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnStudents.Size = new System.Drawing.Size(233, 40);
@@ -308,7 +321,7 @@ namespace ABC_Dashboard
             this.panelSubjects.Controls.Add(this.btnManageSubjects);
             this.panelSubjects.Controls.Add(this.btnAddSubjects);
             this.panelSubjects.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubjects.Location = new System.Drawing.Point(0, 461);
+            this.panelSubjects.Location = new System.Drawing.Point(0, 502);
             this.panelSubjects.Name = "panelSubjects";
             this.panelSubjects.Size = new System.Drawing.Size(233, 102);
             this.panelSubjects.TabIndex = 8;
@@ -317,6 +330,7 @@ namespace ABC_Dashboard
             // 
             this.btnManageSubjects.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManageSubjects.FlatAppearance.BorderSize = 0;
+            this.btnManageSubjects.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageSubjects.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageSubjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageSubjects.ForeColor = System.Drawing.Color.Black;
@@ -334,6 +348,7 @@ namespace ABC_Dashboard
             // 
             this.btnAddSubjects.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAddSubjects.FlatAppearance.BorderSize = 0;
+            this.btnAddSubjects.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddSubjects.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddSubjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddSubjects.ForeColor = System.Drawing.Color.Black;
@@ -351,10 +366,11 @@ namespace ABC_Dashboard
             // 
             this.btnSubjects.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSubjects.FlatAppearance.BorderSize = 0;
+            this.btnSubjects.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnSubjects.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnSubjects.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubjects.ForeColor = System.Drawing.Color.Black;
-            this.btnSubjects.Location = new System.Drawing.Point(0, 421);
+            this.btnSubjects.Location = new System.Drawing.Point(0, 462);
             this.btnSubjects.Name = "btnSubjects";
             this.btnSubjects.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnSubjects.Size = new System.Drawing.Size(233, 40);
@@ -369,7 +385,7 @@ namespace ABC_Dashboard
             this.panelLecturers.Controls.Add(this.btnManageLecturers);
             this.panelLecturers.Controls.Add(this.btnAddLecturers);
             this.panelLecturers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLecturers.Location = new System.Drawing.Point(0, 319);
+            this.panelLecturers.Location = new System.Drawing.Point(0, 360);
             this.panelLecturers.Name = "panelLecturers";
             this.panelLecturers.Size = new System.Drawing.Size(233, 102);
             this.panelLecturers.TabIndex = 6;
@@ -378,6 +394,7 @@ namespace ABC_Dashboard
             // 
             this.btnManageLecturers.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManageLecturers.FlatAppearance.BorderSize = 0;
+            this.btnManageLecturers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageLecturers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageLecturers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageLecturers.ForeColor = System.Drawing.Color.Black;
@@ -395,6 +412,7 @@ namespace ABC_Dashboard
             // 
             this.btnAddLecturers.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAddLecturers.FlatAppearance.BorderSize = 0;
+            this.btnAddLecturers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddLecturers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddLecturers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddLecturers.ForeColor = System.Drawing.Color.Black;
@@ -412,10 +430,11 @@ namespace ABC_Dashboard
             // 
             this.btnLecturers.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnLecturers.FlatAppearance.BorderSize = 0;
+            this.btnLecturers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnLecturers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnLecturers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLecturers.ForeColor = System.Drawing.Color.Black;
-            this.btnLecturers.Location = new System.Drawing.Point(0, 279);
+            this.btnLecturers.Location = new System.Drawing.Point(0, 320);
             this.btnLecturers.Name = "btnLecturers";
             this.btnLecturers.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnLecturers.Size = new System.Drawing.Size(233, 40);
@@ -430,7 +449,7 @@ namespace ABC_Dashboard
             this.panelWorkingDaysHours.Controls.Add(this.btnManageWorkingDaysHours);
             this.panelWorkingDaysHours.Controls.Add(this.btnAddWorkingDaysHours);
             this.panelWorkingDaysHours.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelWorkingDaysHours.Location = new System.Drawing.Point(0, 179);
+            this.panelWorkingDaysHours.Location = new System.Drawing.Point(0, 220);
             this.panelWorkingDaysHours.Name = "panelWorkingDaysHours";
             this.panelWorkingDaysHours.Size = new System.Drawing.Size(233, 100);
             this.panelWorkingDaysHours.TabIndex = 4;
@@ -439,6 +458,7 @@ namespace ABC_Dashboard
             // 
             this.btnManageWorkingDaysHours.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnManageWorkingDaysHours.FlatAppearance.BorderSize = 0;
+            this.btnManageWorkingDaysHours.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageWorkingDaysHours.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnManageWorkingDaysHours.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnManageWorkingDaysHours.ForeColor = System.Drawing.Color.Black;
@@ -456,6 +476,7 @@ namespace ABC_Dashboard
             // 
             this.btnAddWorkingDaysHours.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAddWorkingDaysHours.FlatAppearance.BorderSize = 0;
+            this.btnAddWorkingDaysHours.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddWorkingDaysHours.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnAddWorkingDaysHours.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddWorkingDaysHours.ForeColor = System.Drawing.Color.Black;
@@ -473,10 +494,11 @@ namespace ABC_Dashboard
             // 
             this.btnWorkingDaysHours.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnWorkingDaysHours.FlatAppearance.BorderSize = 0;
+            this.btnWorkingDaysHours.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnWorkingDaysHours.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnWorkingDaysHours.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWorkingDaysHours.ForeColor = System.Drawing.Color.Black;
-            this.btnWorkingDaysHours.Location = new System.Drawing.Point(0, 139);
+            this.btnWorkingDaysHours.Location = new System.Drawing.Point(0, 180);
             this.btnWorkingDaysHours.Name = "btnWorkingDaysHours";
             this.btnWorkingDaysHours.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnWorkingDaysHours.Size = new System.Drawing.Size(233, 40);
@@ -490,10 +512,11 @@ namespace ABC_Dashboard
             // 
             this.btnStatistics.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnStatistics.FlatAppearance.BorderSize = 0;
+            this.btnStatistics.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnStatistics.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnStatistics.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStatistics.ForeColor = System.Drawing.Color.Black;
-            this.btnStatistics.Location = new System.Drawing.Point(0, 99);
+            this.btnStatistics.Location = new System.Drawing.Point(0, 140);
             this.btnStatistics.Name = "btnStatistics";
             this.btnStatistics.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnStatistics.Size = new System.Drawing.Size(233, 40);
@@ -507,10 +530,11 @@ namespace ABC_Dashboard
             this.btnGenerateTimetable.BackColor = System.Drawing.Color.Transparent;
             this.btnGenerateTimetable.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnGenerateTimetable.FlatAppearance.BorderSize = 0;
+            this.btnGenerateTimetable.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnGenerateTimetable.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnGenerateTimetable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerateTimetable.ForeColor = System.Drawing.Color.Black;
-            this.btnGenerateTimetable.Location = new System.Drawing.Point(0, 59);
+            this.btnGenerateTimetable.Location = new System.Drawing.Point(0, 100);
             this.btnGenerateTimetable.Name = "btnGenerateTimetable";
             this.btnGenerateTimetable.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnGenerateTimetable.Size = new System.Drawing.Size(233, 40);
@@ -521,11 +545,24 @@ namespace ABC_Dashboard
             // 
             // panelLogo
             // 
+            this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(233, 59);
+            this.panelLogo.Padding = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.panelLogo.Size = new System.Drawing.Size(233, 100);
             this.panelLogo.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Image = global::ABC_Dashboard.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(233, 60);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -558,6 +595,8 @@ namespace ABC_Dashboard
             this.panelSubjects.ResumeLayout(false);
             this.panelLecturers.ResumeLayout(false);
             this.panelWorkingDaysHours.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -602,6 +641,7 @@ namespace ABC_Dashboard
         private System.Windows.Forms.Button btnManageLecturers;
         
         private System.Windows.Forms.Button btnLocation;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
