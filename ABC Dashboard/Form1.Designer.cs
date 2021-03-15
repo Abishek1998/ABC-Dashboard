@@ -145,7 +145,7 @@ namespace ABC_Dashboard
             this.btnManageLocation.Text = "Manage Location";
             this.btnManageLocation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnManageLocation.UseVisualStyleBackColor = true;
-            this.btnManageLocation.Click += new System.EventHandler(this.btnManageLocation_Click);
+            this.btnManageLocation.Click += new System.EventHandler(this.BtnManageLocation_Click);
             // 
             // btnAddLocation
             // 
@@ -162,7 +162,7 @@ namespace ABC_Dashboard
             this.btnAddLocation.Text = "Add Location";
             this.btnAddLocation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddLocation.UseVisualStyleBackColor = true;
-            this.btnAddLocation.Click += new System.EventHandler(this.btnAddLocation_Click);
+            this.btnAddLocation.Click += new System.EventHandler(this.BtnAddLocation_Click);
             // 
             // btnLocation
             // 
@@ -179,7 +179,7 @@ namespace ABC_Dashboard
             this.btnLocation.Text = "Location";
             this.btnLocation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLocation.UseVisualStyleBackColor = true;
-            this.btnLocation.Click += new System.EventHandler(this.btnLocation_Click);
+            this.btnLocation.Click += new System.EventHandler(this.BtnLocation_Click);
             // 
             // panelTags
             // 
@@ -206,7 +206,7 @@ namespace ABC_Dashboard
             this.btnManageTags.Text = "Manage Tags";
             this.btnManageTags.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnManageTags.UseVisualStyleBackColor = true;
-            this.btnManageTags.Click += new System.EventHandler(this.btnManageTags_Click);
+            this.btnManageTags.Click += new System.EventHandler(this.BtnManageTags_Click);
             // 
             // btnAddTags
             // 
@@ -223,7 +223,7 @@ namespace ABC_Dashboard
             this.btnAddTags.Text = "Add Tags";
             this.btnAddTags.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddTags.UseVisualStyleBackColor = true;
-            this.btnAddTags.Click += new System.EventHandler(this.btnAddTags_Click);
+            this.btnAddTags.Click += new System.EventHandler(this.BtnAddTags_Click);
             // 
             // btnTags
             // 
@@ -240,7 +240,7 @@ namespace ABC_Dashboard
             this.btnTags.Text = "Tags";
             this.btnTags.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTags.UseVisualStyleBackColor = true;
-            this.btnTags.Click += new System.EventHandler(this.btnTags_Click);
+            this.btnTags.Click += new System.EventHandler(this.BtnTags_Click);
             // 
             // panelStudents
             // 
@@ -267,7 +267,7 @@ namespace ABC_Dashboard
             this.btnManageStudents.Text = "Manage Students";
             this.btnManageStudents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnManageStudents.UseVisualStyleBackColor = true;
-            this.btnManageStudents.Click += new System.EventHandler(this.btnManageStudents_Click);
+            this.btnManageStudents.Click += new System.EventHandler(this.BtnManageStudents_Click);
             // 
             // btnAddStudents
             // 
@@ -284,7 +284,7 @@ namespace ABC_Dashboard
             this.btnAddStudents.Text = "Add Students";
             this.btnAddStudents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddStudents.UseVisualStyleBackColor = true;
-            this.btnAddStudents.Click += new System.EventHandler(this.btnAddStudents_Click);
+            this.btnAddStudents.Click += new System.EventHandler(this.BtnAddStudents_Click);
             // 
             // btnStudents
             // 
@@ -301,7 +301,7 @@ namespace ABC_Dashboard
             this.btnStudents.Text = "Students";
             this.btnStudents.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnStudents.UseVisualStyleBackColor = true;
-            this.btnStudents.Click += new System.EventHandler(this.btnStudents_Click);
+            this.btnStudents.Click += new System.EventHandler(this.BtnStudents_Click);
             // 
             // panelSubjects
             // 
@@ -328,7 +328,7 @@ namespace ABC_Dashboard
             this.btnManageSubjects.Text = "Manage Subjects";
             this.btnManageSubjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnManageSubjects.UseVisualStyleBackColor = true;
-            this.btnManageSubjects.Click += new System.EventHandler(this.btnManageSubjects_Click);
+            this.btnManageSubjects.Click += new System.EventHandler(this.BtnManageSubjects_Click);
             // 
             // btnAddSubjects
             // 
@@ -345,7 +345,7 @@ namespace ABC_Dashboard
             this.btnAddSubjects.Text = "Add Subjects";
             this.btnAddSubjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddSubjects.UseVisualStyleBackColor = true;
-            this.btnAddSubjects.Click += new System.EventHandler(this.btnAddSubjects_Click);
+            this.btnAddSubjects.Click += new System.EventHandler(this.BtnAddSubjects_Click);
             // 
             // btnSubjects
             // 
@@ -362,7 +362,7 @@ namespace ABC_Dashboard
             this.btnSubjects.Text = "Subjects";
             this.btnSubjects.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSubjects.UseVisualStyleBackColor = true;
-            this.btnSubjects.Click += new System.EventHandler(this.btnSubjects_Click);
+            this.btnSubjects.Click += new System.EventHandler(this.BtnSubjects_Click);
             // 
             // panelLecturers
             // 
@@ -389,7 +389,7 @@ namespace ABC_Dashboard
             this.btnManageLecturers.Text = "Manage Lecturers";
             this.btnManageLecturers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnManageLecturers.UseVisualStyleBackColor = true;
-            this.btnManageLecturers.Click += new System.EventHandler(this.btnManageLecturers_Click);
+            this.btnManageLecturers.Click += new System.EventHandler(this.BtnManageLecturers_Click);
             // 
             // btnAddLecturers
             // 
@@ -406,7 +406,7 @@ namespace ABC_Dashboard
             this.btnAddLecturers.Text = "Add Lecturers";
             this.btnAddLecturers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddLecturers.UseVisualStyleBackColor = true;
-            this.btnAddLecturers.Click += new System.EventHandler(this.btnAddLecturers_Click);
+            this.btnAddLecturers.Click += new System.EventHandler(this.BtnAddLecturers_Click);
             // 
             // btnLecturers
             // 
@@ -423,7 +423,7 @@ namespace ABC_Dashboard
             this.btnLecturers.Text = "Lecturers";
             this.btnLecturers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLecturers.UseVisualStyleBackColor = true;
-            this.btnLecturers.Click += new System.EventHandler(this.btnLecturers_Click);
+            this.btnLecturers.Click += new System.EventHandler(this.BtnLecturers_Click);
             // 
             // panelWorkingDaysHours
             // 
@@ -450,7 +450,7 @@ namespace ABC_Dashboard
             this.btnManageWorkingDaysHours.Text = "Manage Working Days, Hours";
             this.btnManageWorkingDaysHours.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnManageWorkingDaysHours.UseVisualStyleBackColor = true;
-            this.btnManageWorkingDaysHours.Click += new System.EventHandler(this.btnManageWorkingDaysHours_Click);
+            this.btnManageWorkingDaysHours.Click += new System.EventHandler(this.BtnManageWorkingDaysHours_Click);
             // 
             // btnAddWorkingDaysHours
             // 
@@ -467,7 +467,7 @@ namespace ABC_Dashboard
             this.btnAddWorkingDaysHours.Text = "Add Working Days, Hours";
             this.btnAddWorkingDaysHours.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddWorkingDaysHours.UseVisualStyleBackColor = true;
-            this.btnAddWorkingDaysHours.Click += new System.EventHandler(this.btnAddWorkingDaysHours_Click);
+            this.btnAddWorkingDaysHours.Click += new System.EventHandler(this.BtnAddWorkingDaysHours_Click);
             // 
             // btnWorkingDaysHours
             // 
@@ -484,7 +484,7 @@ namespace ABC_Dashboard
             this.btnWorkingDaysHours.Text = "Working Days, Hours";
             this.btnWorkingDaysHours.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnWorkingDaysHours.UseVisualStyleBackColor = true;
-            this.btnWorkingDaysHours.Click += new System.EventHandler(this.btnWorkingDaysHours_Click);
+            this.btnWorkingDaysHours.Click += new System.EventHandler(this.BtnWorkingDaysHours_Click);
             // 
             // btnStatistics
             // 

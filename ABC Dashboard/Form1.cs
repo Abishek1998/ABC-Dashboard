@@ -15,10 +15,10 @@ namespace ABC_Dashboard
         public MainDashboard()
         {
             InitializeComponent();
-            customDesign();
+            CustomDesign();
         }
 
-        private void customDesign()
+        private void CustomDesign()
         {
             panelWorkingDaysHours.Visible = false;
             panelLecturers.Visible = false;
@@ -29,7 +29,7 @@ namespace ABC_Dashboard
             panelSession.Visible = false;
         }
         
-        private void hideSubMenu()
+        private void HideSubMenu()
         {
             if (panelWorkingDaysHours.Visible == true)
                 panelWorkingDaysHours.Visible = false;
@@ -53,11 +53,11 @@ namespace ABC_Dashboard
                 panelSession.Visible = false;
         }
 
-        private void showSubMenu(Panel subMenu)
+        private void ShowSubMenu(Panel subMenu)
         {
             if (subMenu.Visible == false)
             {
-                hideSubMenu();
+                HideSubMenu();
                 subMenu.Visible = true;
             }
             else
@@ -66,94 +66,94 @@ namespace ABC_Dashboard
             }
         }
 
-        private void btnWorkingDaysHours_Click(object sender, EventArgs e)
+        private void BtnWorkingDaysHours_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelWorkingDaysHours);
+            ShowSubMenu(panelWorkingDaysHours);
         }
 
-        private void btnAddWorkingDaysHours_Click(object sender, EventArgs e)
+        private void BtnAddWorkingDaysHours_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnManageWorkingDaysHours_Click(object sender, EventArgs e)
+        private void BtnManageWorkingDaysHours_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnLecturers_Click(object sender, EventArgs e)
+        private void BtnLecturers_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelLecturers);
+            ShowSubMenu(panelLecturers);
         }
 
-        private void btnAddLecturers_Click(object sender, EventArgs e)
+        private void BtnAddLecturers_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnManageLecturers_Click(object sender, EventArgs e)
+        private void BtnManageLecturers_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnSubjects_Click(object sender, EventArgs e)
+        private void BtnSubjects_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubjects);
+            ShowSubMenu(panelSubjects);
         }
 
-        private void btnAddSubjects_Click(object sender, EventArgs e)
+        private void BtnAddSubjects_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnManageSubjects_Click(object sender, EventArgs e)
+        private void BtnManageSubjects_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnStudents_Click(object sender, EventArgs e)
+        private void BtnStudents_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelStudents);
+            ShowSubMenu(panelStudents);
         }
 
-        private void btnAddStudents_Click(object sender, EventArgs e)
+        private void BtnAddStudents_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnManageStudents_Click(object sender, EventArgs e)
+        private void BtnManageStudents_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnTags_Click(object sender, EventArgs e)
+        private void BtnTags_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelTags);
+            ShowSubMenu(panelTags);
         }
 
-        private void btnAddTags_Click(object sender, EventArgs e)
+        private void BtnAddTags_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnManageTags_Click(object sender, EventArgs e)
+        private void BtnManageTags_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnLocation_Click(object sender, EventArgs e)
+        private void BtnLocation_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelLocation);
+            ShowSubMenu(panelLocation);
         }
 
-        private void btnAddLocation_Click(object sender, EventArgs e)
+        private void BtnAddLocation_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
 
-        private void btnManageLocation_Click(object sender, EventArgs e)
+        private void BtnManageLocation_Click(object sender, EventArgs e)
         {
-            hideSubMenu();
+            HideSubMenu();
         }
     }
 }
