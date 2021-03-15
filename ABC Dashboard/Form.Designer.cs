@@ -29,6 +29,7 @@ namespace ABC_Dashboard
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainDashboard));
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.panelSession = new System.Windows.Forms.Panel();
             this.btnSession = new System.Windows.Forms.Button();
@@ -61,6 +62,10 @@ namespace ABC_Dashboard
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panelChildForm = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panelFooter = new System.Windows.Forms.Panel();
+            this.labelCopyRights = new System.Windows.Forms.Label();
             this.panelSideMenu.SuspendLayout();
             this.panelLocation.SuspendLayout();
             this.panelTags.SuspendLayout();
@@ -70,6 +75,10 @@ namespace ABC_Dashboard
             this.panelWorkingDaysHours.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panelChildForm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelFooter.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -102,7 +111,7 @@ namespace ABC_Dashboard
             // panelSession
             // 
             this.panelSession.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSession.Location = new System.Drawing.Point(0, 1070);
+            this.panelSession.Location = new System.Drawing.Point(0, 1000);
             this.panelSession.Name = "panelSession";
             this.panelSession.Size = new System.Drawing.Size(233, 51);
             this.panelSession.TabIndex = 16;
@@ -115,7 +124,7 @@ namespace ABC_Dashboard
             this.btnSession.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnSession.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSession.ForeColor = System.Drawing.Color.Black;
-            this.btnSession.Location = new System.Drawing.Point(0, 1030);
+            this.btnSession.Location = new System.Drawing.Point(0, 960);
             this.btnSession.Name = "btnSession";
             this.btnSession.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.btnSession.Size = new System.Drawing.Size(233, 40);
@@ -129,9 +138,9 @@ namespace ABC_Dashboard
             this.panelLocation.Controls.Add(this.btnManageLocation);
             this.panelLocation.Controls.Add(this.btnAddLocation);
             this.panelLocation.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLocation.Location = new System.Drawing.Point(0, 928);
+            this.panelLocation.Location = new System.Drawing.Point(0, 870);
             this.panelLocation.Name = "panelLocation";
-            this.panelLocation.Size = new System.Drawing.Size(233, 102);
+            this.panelLocation.Size = new System.Drawing.Size(233, 90);
             this.panelLocation.TabIndex = 14;
             // 
             // btnManageLocation
@@ -180,7 +189,7 @@ namespace ABC_Dashboard
             this.btnLocation.ForeColor = System.Drawing.Color.Black;
             this.btnLocation.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnLocation.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLocation.Location = new System.Drawing.Point(0, 888);
+            this.btnLocation.Location = new System.Drawing.Point(0, 830);
             this.btnLocation.Name = "btnLocation";
             this.btnLocation.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.btnLocation.Size = new System.Drawing.Size(233, 40);
@@ -196,9 +205,9 @@ namespace ABC_Dashboard
             this.panelTags.Controls.Add(this.btnManageTags);
             this.panelTags.Controls.Add(this.btnAddTags);
             this.panelTags.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTags.Location = new System.Drawing.Point(0, 786);
+            this.panelTags.Location = new System.Drawing.Point(0, 740);
             this.panelTags.Name = "panelTags";
-            this.panelTags.Size = new System.Drawing.Size(233, 102);
+            this.panelTags.Size = new System.Drawing.Size(233, 90);
             this.panelTags.TabIndex = 12;
             // 
             // btnManageTags
@@ -247,7 +256,7 @@ namespace ABC_Dashboard
             this.btnTags.ForeColor = System.Drawing.Color.Black;
             this.btnTags.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnTags.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTags.Location = new System.Drawing.Point(0, 746);
+            this.btnTags.Location = new System.Drawing.Point(0, 700);
             this.btnTags.Name = "btnTags";
             this.btnTags.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.btnTags.Size = new System.Drawing.Size(233, 40);
@@ -263,9 +272,9 @@ namespace ABC_Dashboard
             this.panelStudents.Controls.Add(this.btnManageStudents);
             this.panelStudents.Controls.Add(this.btnAddStudents);
             this.panelStudents.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelStudents.Location = new System.Drawing.Point(0, 644);
+            this.panelStudents.Location = new System.Drawing.Point(0, 610);
             this.panelStudents.Name = "panelStudents";
-            this.panelStudents.Size = new System.Drawing.Size(233, 102);
+            this.panelStudents.Size = new System.Drawing.Size(233, 90);
             this.panelStudents.TabIndex = 10;
             // 
             // btnManageStudents
@@ -314,7 +323,7 @@ namespace ABC_Dashboard
             this.btnStudents.ForeColor = System.Drawing.Color.Black;
             this.btnStudents.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnStudents.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnStudents.Location = new System.Drawing.Point(0, 604);
+            this.btnStudents.Location = new System.Drawing.Point(0, 570);
             this.btnStudents.Name = "btnStudents";
             this.btnStudents.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.btnStudents.Size = new System.Drawing.Size(233, 40);
@@ -330,9 +339,9 @@ namespace ABC_Dashboard
             this.panelSubjects.Controls.Add(this.btnManageSubjects);
             this.panelSubjects.Controls.Add(this.btnAddSubjects);
             this.panelSubjects.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelSubjects.Location = new System.Drawing.Point(0, 502);
+            this.panelSubjects.Location = new System.Drawing.Point(0, 480);
             this.panelSubjects.Name = "panelSubjects";
-            this.panelSubjects.Size = new System.Drawing.Size(233, 102);
+            this.panelSubjects.Size = new System.Drawing.Size(233, 90);
             this.panelSubjects.TabIndex = 8;
             // 
             // btnManageSubjects
@@ -381,7 +390,7 @@ namespace ABC_Dashboard
             this.btnSubjects.ForeColor = System.Drawing.Color.Black;
             this.btnSubjects.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnSubjects.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSubjects.Location = new System.Drawing.Point(0, 462);
+            this.btnSubjects.Location = new System.Drawing.Point(0, 440);
             this.btnSubjects.Name = "btnSubjects";
             this.btnSubjects.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.btnSubjects.Size = new System.Drawing.Size(233, 40);
@@ -397,9 +406,9 @@ namespace ABC_Dashboard
             this.panelLecturers.Controls.Add(this.btnManageLecturers);
             this.panelLecturers.Controls.Add(this.btnAddLecturers);
             this.panelLecturers.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLecturers.Location = new System.Drawing.Point(0, 360);
+            this.panelLecturers.Location = new System.Drawing.Point(0, 350);
             this.panelLecturers.Name = "panelLecturers";
-            this.panelLecturers.Size = new System.Drawing.Size(233, 102);
+            this.panelLecturers.Size = new System.Drawing.Size(233, 90);
             this.panelLecturers.TabIndex = 6;
             // 
             // btnManageLecturers
@@ -448,7 +457,7 @@ namespace ABC_Dashboard
             this.btnLecturers.ForeColor = System.Drawing.Color.Black;
             this.btnLecturers.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnLecturers.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLecturers.Location = new System.Drawing.Point(0, 320);
+            this.btnLecturers.Location = new System.Drawing.Point(0, 310);
             this.btnLecturers.Name = "btnLecturers";
             this.btnLecturers.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.btnLecturers.Size = new System.Drawing.Size(233, 40);
@@ -466,7 +475,7 @@ namespace ABC_Dashboard
             this.panelWorkingDaysHours.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelWorkingDaysHours.Location = new System.Drawing.Point(0, 220);
             this.panelWorkingDaysHours.Name = "panelWorkingDaysHours";
-            this.panelWorkingDaysHours.Size = new System.Drawing.Size(233, 100);
+            this.panelWorkingDaysHours.Size = new System.Drawing.Size(233, 90);
             this.panelWorkingDaysHours.TabIndex = 4;
             // 
             // btnManageWorkingDaysHours
@@ -563,6 +572,7 @@ namespace ABC_Dashboard
             this.btnGenerateTimetable.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGenerateTimetable.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btnGenerateTimetable.UseVisualStyleBackColor = false;
+            this.btnGenerateTimetable.Click += new System.EventHandler(this.BtnGenerateTimetable_Click);
             // 
             // panelLogo
             // 
@@ -591,10 +601,52 @@ namespace ABC_Dashboard
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.panelChildForm);
+            this.panel2.Controls.Add(this.panelFooter);
             this.panel2.Location = new System.Drawing.Point(260, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1092, 729);
             this.panel2.TabIndex = 1;
+            // 
+            // panelChildForm
+            // 
+            this.panelChildForm.BackColor = System.Drawing.Color.Silver;
+            this.panelChildForm.Controls.Add(this.pictureBox2);
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.Location = new System.Drawing.Point(0, 0);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(1092, 679);
+            this.panelChildForm.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(39, 66);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(394, 562);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panelFooter
+            // 
+            this.panelFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
+            this.panelFooter.Controls.Add(this.labelCopyRights);
+            this.panelFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelFooter.Location = new System.Drawing.Point(0, 679);
+            this.panelFooter.Name = "panelFooter";
+            this.panelFooter.Size = new System.Drawing.Size(1092, 50);
+            this.panelFooter.TabIndex = 0;
+            // 
+            // labelCopyRights
+            // 
+            this.labelCopyRights.AutoSize = true;
+            this.labelCopyRights.Location = new System.Drawing.Point(953, 17);
+            this.labelCopyRights.Name = "labelCopyRights";
+            this.labelCopyRights.Size = new System.Drawing.Size(125, 19);
+            this.labelCopyRights.TabIndex = 0;
+            this.labelCopyRights.Text = "All Rights Reserved";
             // 
             // MainDashboard
             // 
@@ -618,6 +670,11 @@ namespace ABC_Dashboard
             this.panelWorkingDaysHours.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panelChildForm.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelFooter.ResumeLayout(false);
+            this.panelFooter.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -663,6 +720,10 @@ namespace ABC_Dashboard
         
         private System.Windows.Forms.Button btnLocation;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panelFooter;
+        private System.Windows.Forms.Label labelCopyRights;
+        private System.Windows.Forms.Panel panelChildForm;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

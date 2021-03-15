@@ -73,6 +73,7 @@ namespace ABC_Dashboard
 
         private void BtnAddWorkingDaysHours_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new WorkingDaysHours());
             HideSubMenu();
         }
 
@@ -154,6 +155,28 @@ namespace ABC_Dashboard
         private void BtnManageLocation_Click(object sender, EventArgs e)
         {
             HideSubMenu();
+        }
+
+        private Form activeForm = null;
+        private void OpenChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            panelChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+
+        }
+
+        private void BtnGenerateTimetable_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Form());
+            
         }
     }
 }
