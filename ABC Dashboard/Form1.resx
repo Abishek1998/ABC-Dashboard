@@ -57,21 +57,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="btnLecturers.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAINJREFUOE+tkkkOgCAQBOdFPsL/H3iNV3RcglhNTGw7qQPF9IQDUWv9FSkdpHSQ
-        0kFKBykdKCKmk7fsc+hDRJSNZWPOwyB5lzMFfYg2PFra3aMPcWS0FB59iJZnGcsy6EP0uS/Bsgz6EIx8
-        2RX0IXSGXwn9p3CR0kFKBykdpHSQ8js1VqXapy5GefBBAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="btnWorkingDaysHours.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAINJREFUOE+tkkkOgCAQBOdFPsL/H3iNV3RcglhNTGw7qQPF9IQDUWv9FSkdpHSQ
-        0kFKBykdKCKmk7fsc+hDRJSNZWPOwyB5lzMFfYg2PFra3aMPcWS0FB59iJZnGcsy6EP0uS/Bsgz6EIx8
-        2RX0IXSGXwn9p3CR0kFKBykdpHSQ8js1VqXapy5GefBBAAAAAElFTkSuQmCC
-</value>
-  </data>
 </root>

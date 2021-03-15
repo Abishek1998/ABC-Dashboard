@@ -29,7 +29,6 @@ namespace ABC_Dashboard
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainDashboard));
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.panelSession = new System.Windows.Forms.Panel();
             this.btnSession = new System.Windows.Forms.Button();
@@ -447,7 +446,7 @@ namespace ABC_Dashboard
             this.btnLecturers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnLecturers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLecturers.ForeColor = System.Drawing.Color.Black;
-            this.btnLecturers.Image = ((System.Drawing.Image)(resources.GetObject("btnLecturers.Image")));
+            this.btnLecturers.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnLecturers.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLecturers.Location = new System.Drawing.Point(0, 320);
             this.btnLecturers.Name = "btnLecturers";
@@ -514,7 +513,7 @@ namespace ABC_Dashboard
             this.btnWorkingDaysHours.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(241)))), ((int)(((byte)(255)))));
             this.btnWorkingDaysHours.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWorkingDaysHours.ForeColor = System.Drawing.Color.Black;
-            this.btnWorkingDaysHours.Image = ((System.Drawing.Image)(resources.GetObject("btnWorkingDaysHours.Image")));
+            this.btnWorkingDaysHours.Image = global::ABC_Dashboard.Properties.Resources.Down;
             this.btnWorkingDaysHours.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnWorkingDaysHours.Location = new System.Drawing.Point(0, 180);
             this.btnWorkingDaysHours.Name = "btnWorkingDaysHours";
@@ -554,10 +553,10 @@ namespace ABC_Dashboard
             this.btnGenerateTimetable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerateTimetable.ForeColor = System.Drawing.Color.Black;
             this.btnGenerateTimetable.Image = global::ABC_Dashboard.Properties.Resources.Group_4;
-            this.btnGenerateTimetable.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGenerateTimetable.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGenerateTimetable.Location = new System.Drawing.Point(0, 100);
             this.btnGenerateTimetable.Name = "btnGenerateTimetable";
-            this.btnGenerateTimetable.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.btnGenerateTimetable.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
             this.btnGenerateTimetable.Size = new System.Drawing.Size(233, 40);
             this.btnGenerateTimetable.TabIndex = 1;
             this.btnGenerateTimetable.Text = "Generate Timetable";
