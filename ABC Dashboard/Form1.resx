@@ -60,16 +60,16 @@
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="btnLecturers.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAACDSURBVDhPrZJJDoAgEATnRT7C/x94jVd0XIJYTUxsO6kD
-        xfSEA1Fr/RUpHaR0kNJBSgcpHSgippO37HPoQ0SUjWVjzsMgeZczBX2INjxa2t2jD3FktBQefYiWZxnL
-        MuhD9LkvwbIM+hCMfNkV9CF0hl8J/adwkdJBSgcpHaR0kPI7NVal2qcuRnnwQQAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAAINJREFUOE+tkkkOgCAQBOdFPsL/H3iNV3RcglhNTGw7qQPF9IQDUWv9FSkdpHSQ
+        0kFKBykdKCKmk7fsc+hDRJSNZWPOwyB5lzMFfYg2PFra3aMPcWS0FB59iJZnGcsy6EP0uS/Bsgz6EIx8
+        2RX0IXSGXwn9p3CR0kFKBykdpHSQ8js1VqXapy5GefBBAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btnWorkingDaysHours.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAAAINJREFUOE+tkkkOgCAQBOdFPsL/H3iNV3RcglhNTGw7qQPF9IQDUWv9FSkdpHSQ
+        EAAACxABrSO9dQAAAINJREFUOE+tkkkOgCAQBOdFPsL/H3iNV3RcglhNTGw7qQPF9IQDUWv9FSkdpHSQ
         0kFKBykdKCKmk7fsc+hDRJSNZWPOwyB5lzMFfYg2PFra3aMPcWS0FB59iJZnGcsy6EP0uS/Bsgz6EIx8
         2RX0IXSGXwn9p3CR0kFKBykdpHSQ8js1VqXapy5GefBBAAAAAElFTkSuQmCC
 </value>
